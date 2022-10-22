@@ -60,12 +60,20 @@ ul > li {
 }
 
 ul >  li  > a {
+    background-position: 200% 100%; 
+    background-image: linear-gradient(#1f803f 0 0);
     padding: 10px;
     text-decoration: none;
     color: white;
+    background-size: 200% .2em;
+    background-repeat: no-repeat;
+    transition: background-size .3s, background-position: .3s, background-color .3s;
 }
 
 ul > li > a:hover{
-    background-color: blanchedalmond;
+    background-position: 200% 100%;
+    background-color: rgba(250, 234, 210, 0.822);
     color:rgb(13, 77, 29);
+    background-size: 100% .2em;
+    transition: background-size .3s .3s , background-position .3s, background-color .3s;
 }
