@@ -61,19 +61,20 @@ ul > li {
 
 ul >  li  > a {
     background-position: 200% 100%; 
-    background-image: linear-gradient(#1f803f 0 0);
+    background-image: linear-gradient(#afd0ba 0 0);
     padding: 10px;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
     color: white;
-    background-size: 200% .2em;
+    background-size: 200% .3em;
     background-repeat: no-repeat;
-    transition: background-size .3s, background-position: .3s, background-color .3s;
 }
 
 ul > li > a:hover{
     background-position: 200% 100%;
-    background-color: rgba(250, 234, 210, 0.822);
-    color:rgb(13, 77, 29);
-    background-size: 100% .2em;
-    transition: background-size .3s .3s , background-position .3s, background-color .3s;
+    /*background-color: rgb(255, 249, 239);*/
+    color:#afd0ba;
+    background-size: 100% .3em;
+    transition: background-size .3s .3s, background-position .3s;
 }
