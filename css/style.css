@@ -63,6 +63,7 @@ ul >  li  > a {
     background-position: 200% 100%; 
     background-image: linear-gradient(#afd0ba 0 0);
     padding: 10px;
+    margin: 0 2px 0 2px;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
