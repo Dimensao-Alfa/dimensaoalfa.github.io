@@ -45,7 +45,7 @@
     
    <script>
     const feed = document.getElementById('feed');
-    const FEED_URL = 'http://wsricardo.blogspot.com/feeds/posts/default'
+    const FEED_URL = 'https://wsricardo.blogspot.com/feeds/posts/default'
     $.get(FEED_URL, function (data) {
     $(data).find("entry").each(function () { // or "item" or whatever suits your feed
         var el = $(this);
