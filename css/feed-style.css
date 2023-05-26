@@ -16,6 +16,7 @@ header {
     background-color: rgb(211, 193, 174);
     border-bottom: 2px solid rgb(145, 117, 117);
     overflow: hidden;
+    text-align: center;
     
 }
 
@@ -112,7 +113,7 @@ main{
 }
 
 /*Media mobiles style*/
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     
     header { display: inline-block; text-align: center; width: 432px; margin: 0 auto; }
     header > h1 {font-size: 13pt; }
