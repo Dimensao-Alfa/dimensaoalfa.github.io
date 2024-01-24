@@ -9,32 +9,139 @@
             margin: 0;
             padding: 0;
         }
-    header {
-	    display: flex;
-	    flex-direction: row;
-	    align-content: space-between;
-	    justify-content: space-around;
-        font-size: x-large;
-        background-color: aliceblue;
-        width: 100%;
-        height: auto;
-        padding: 0;
-        margin: 0;
-    }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+	        display: flex;
+	        flex-direction: row;
+	        align-content: space-between;
+	        justify-content: space-around;
+            /*align-items: center;*/
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-size: x-large;
+            color:#4a5c5b;
+            background-color: #f1f1f1;
+            width: 100%;
+            height: 65px;
+            padding: 0;
+            margin: 0;
+        }
+
+        /*.header-title {
+            display: inline-block;
+            text-align: center;
+            border-right: 2px solid #a6a6a6;
+            color:black;
+            margin: 0;
+            padding: 0;
+
+        }*/
+
+        .header-title {
+            display: inline-block;
+            text-align: center;
+            border-right: 2px solid #e0e0e0;
+            margin: 0;
+            padding: 0;
+            width: 60%;
+        }
+
+        .header-body {
+            width: 30%;
+        }
+
+        .box-search {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            margin: 40px;
+            padding: 10px;
+
+            color: black;
+
+
+        }
+
+        .box-input{
+            padding: 12px 12px 1px 12px;
+            
+
+        }
+
+        .box-input input {
+            
+            text-align: center;
+        }
+
+        .button-input{
+            display: block;
+            padding: 2px;
+            background-color: aliceblue;
+           
+
+        }
+
+        .button-input button{
+            border: 2px solid rgb(95, 99, 103);
+            border-radius: 0;
+            padding: 4px;
+            background-color: #e0e0e0;
+        }
+
+        footer {
+            display: block;
+            width: 100%;
+            margin: auto;
+            padding: 0;
+            /*background-color: #e0e0e0;*/
+        }
+
+        .content-footer {
+            padding: 12px;
+            margin: 2px auto;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
     <header>
-        <div>
+        <div class="header-title">
             Dimensão Alfa
         </div>
 
-        <div>
+        <div class="header-body">
             Biblioteca Virtual Matemática & Computação
         </div>
          
     </header>
 
-    Em construção...
+    <div class="box-search">
+        <div class="box-input">
+            <input type="text" value="" size="60">
+        </div>
+
+        <div class="button-input">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="content-footer">
+           <a href="https://drive.google.com/drive/folders/170rOywMqt82fQxU-se8ZTp4QnvBKu2Cj">
+            Google Drive Repository (Reposítório)
+           </a>
+        </div>
+        (Em construção...)
+    </footer>
+   <br>
+
+    
 </body>
 </html>
