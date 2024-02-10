@@ -142,3 +142,12 @@ ul > li > a:hover{
     color: rgb(255, 255, 255); 
     background: #3e5a7e;
   }
+
+  #support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px;
+    padding: 2px;
+    
+  }
