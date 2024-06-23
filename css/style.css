@@ -48,9 +48,8 @@ body {
     display: flex; 
     flex-direction: column; 
     
-    justify-content: center; 
+    justify-content: space-between; 
     align-items: center;
-    justify-items: center;
     text-align: center;
 
     
@@ -147,8 +146,10 @@ ul > li > a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: space-between;
+    
     margin: 6px;
-    padding: 2px;
+    padding: 26px 2px 2px 2px;
     color:rgb(255, 255, 255);
     
   }
