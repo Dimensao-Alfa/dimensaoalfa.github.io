@@ -27,7 +27,12 @@ h1 {
     color: white;
 }
 
-h1:hover{
+.menu-header {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.menu-header h1:hover{
 
     background-color: blue;
     background-position: bottom;
