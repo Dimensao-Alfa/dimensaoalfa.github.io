@@ -1,0 +1,8 @@
+/*
+* Mobile version.
+*/
+
+@media screen and (min-width: 400px) {
+    nav{}
+    .container-nav{}
+}
