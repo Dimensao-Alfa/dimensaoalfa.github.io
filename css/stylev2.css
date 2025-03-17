@@ -260,7 +260,8 @@ nav{
 
 .container-img-top p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
+    font-weight: bold;
     color: white;
     display: block;
     text-align: center;
