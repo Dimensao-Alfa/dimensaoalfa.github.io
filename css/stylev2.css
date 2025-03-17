@@ -224,6 +224,14 @@ nav{
 
 }
 
+.container-img-top section {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .container-img-top:before{
     position: absolute;
     background: rgba(8, 112, 214, 0.7);
@@ -246,6 +254,7 @@ nav{
     text-align: center;
     color: white;
     z-index: 1;
+    text-shadow: 1px 2px 1px rgba(212, 212, 212, 0.526);
     
 }
 
@@ -260,20 +269,24 @@ nav{
 
 .container-img-top p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 14pt;
-    font-weight: bold;
-    color: white;
+    font-size: 16pt;
+    /*font-weight: bold;*/
+    color: aliceblue;
     display: block;
     text-align: center;
     position: relative;
     z-index: 1;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    margin-bottom: 4px;
+    padding-bottom: 2px ;
 }
 
-.container-img-top #body-texts {
+#body-texts {
     color:aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     padding: 4px;
+    border-style:none; 
 }
 
 .container-section-carrousel {
