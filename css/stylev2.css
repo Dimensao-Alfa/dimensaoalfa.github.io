@@ -194,6 +194,12 @@ nav{
     text-align: justify;
 }
 
+.main-container-sections section h2 {
+    padding: 0  0 48px 0; 
+    text-align: center; 
+    font-size: 24pt;
+}
+
 .main-container-section-blue-middle{
     background: #0870d6;
     height: 400px;

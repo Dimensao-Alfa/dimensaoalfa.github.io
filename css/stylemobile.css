@@ -144,6 +144,22 @@
         height: fit-content;
     }
 
+    .main-container-sections section{
+        display: grid;
+        padding: 0 12px 0 12px;
+        width: 100%;
+        margin: 40px auto;
+        font-size: 12pt;
+        text-align: justify;
+    }
+
+    .main-container-sections section h2 {
+        padding:  0 0 48px 0;
+        text-align: center;
+        font-size: 13pt;
+        width: 100%;
+    }
+
     .main-container-posts {
         display: flex;
         flex-direction: column;
