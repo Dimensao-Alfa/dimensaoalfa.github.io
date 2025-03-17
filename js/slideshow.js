@@ -6,7 +6,7 @@
 const slide = {
     pagesize:  4,
     index: 0,
-    timeWait: 2800, // miliseconds
+    timeWait: 7800, // miliseconds
     slideobj: document.querySelectorAll(".slide-item"),
 
     nextPage: function(){
