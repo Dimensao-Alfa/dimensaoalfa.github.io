@@ -160,15 +160,15 @@
 
     .main-container-posts section{
         display: block;
-        width: 100%;
+        width: 90%;
         height: fit-content;
         margin: 8px auto;
         text-align: justify;
     }
 
     iframe {
-        width: 90%;
-        height: fit-content;
+        width: 80%;
+        height: auto;
         
     }
 
