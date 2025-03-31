@@ -360,11 +360,15 @@ footer{
 
     color: white;
     font-size: 18pt;
-    padding: 0 12px 0 12px;
+    /*padding: 0 12px 0 12px;*/
     text-align: center;
     margin: 0 auto;
     text-decoration: none;
 
+}
+
+.foot-section span {
+    padding: 0 5px 0 0;
 }
 
 /* Slide animation */
