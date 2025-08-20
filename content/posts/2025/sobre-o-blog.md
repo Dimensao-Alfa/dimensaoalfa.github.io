@@ -4,8 +4,6 @@ Tags: texto, sobre
 Category: Sobre
 Date: 21-08-2025
 Slug: sobre-o-blog-dimensao-alfa
-Title: Sobre o Blog Dimensão Alfa
-
 
 Seja muito bem-vindo(a) ao blog da _Dimensão Alfa_!
 
