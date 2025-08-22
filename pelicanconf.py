@@ -34,8 +34,10 @@ RELATIVE_URLS = True
 INDEX_SAVE_AS = 'index.html'
 
 # Formato de URL para os artigos individuais.
-ARTICLE_URL = 'posts/{slug}.html'
-ARTICLE_SAVE_AS = 'posts/{slug}.html'
+#ARTICLE_URL = 'posts/{slug}.html'
+#ARTICLE_SAVE_AS = 'posts/{slug}.html'
+ARTICLE_URL = 'posts/{date:%Y}/{date:%d}-{date:%m}-{slug}.html'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%d}-{date:%m}-{slug}.html'
 
 # Formato de URL para páginas estáticas.
 #PAGE_PATHS = ['pages']
