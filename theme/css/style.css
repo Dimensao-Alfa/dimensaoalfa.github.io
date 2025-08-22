@@ -71,19 +71,32 @@ header nav a {
 }
 
 /* === Conteúdo do Blog (Artigos e Lista) === */
-.post-list li {
+.post-list > li {
     margin-bottom: 15px;
     list-style: none;
+    border-left: 9px solid #007bff;
+    padding: 6px;
 }
 
 .post-list a {
     font-size: 1.2em;
+    
 }
 
 .post-list .post-date {
     color: #888;
     font-size: 0.9em;
     margin-left: 10px;
+}
+
+.post-summary {
+    color: #888;
+    font-size: 0.9em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;   /* máximo de 3 linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .article-header {

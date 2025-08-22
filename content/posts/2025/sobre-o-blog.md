@@ -11,6 +11,7 @@ Seja muito bem-vindo(a) ao blog da _Dimensão Alfa_.
 Este é um espaço dedicado ao conhecimento com foco em matemática, computação, tecnologia e arte com objetivo de disponibilizar materiais e conteúdos que trazem o acesso ao conhecimento e a informação.
 
 
+
 ### O que você encontrará aqui?
 
 Navegaremos por uma variedade de tópicos, sempre com um olhar curioso e analítico. Espere encontrar:
