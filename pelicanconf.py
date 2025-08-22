@@ -1,3 +1,9 @@
+#
+# Author: Wandeson Ricardo
+# Site: https://www.dimensaoalfa.com.br
+# Github: github.com/wsricardo
+#
+
 from datetime import datetime
 
 AUTHOR = 'Wandeson Ricardo'
