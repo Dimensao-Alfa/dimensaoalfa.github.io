@@ -4,7 +4,8 @@ AUTHOR = 'Wandeson Ricardo'
 SITENAME = 'Dimensão Alfa'
 # Use uma URL vazia para desenvolvimento (links relativos)
 # Em produção, mude para "https://dimensaoalfa.github.io"
-SITEURL = ""
+SITEURL = "https://www.dimensaoalfa.com.br"
+BLOG = f"{SITEURL}/blog"
 
 PATH = "content"
 TIMEZONE = 'America/Recife'

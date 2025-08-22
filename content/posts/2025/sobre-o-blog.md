@@ -4,10 +4,12 @@ Tags: texto, sobre
 Category: Sobre
 Date: 21-08-2025
 Slug: sobre-o-blog-dimensao-alfa
+Status: published
 
-Seja muito bem-vindo(a) ao blog da _Dimensão Alfa_!
+Seja muito bem-vindo(a) ao blog da _Dimensão Alfa_.
 
-Este é o nosso espaço dedicado a explorar com mais profundidade os temas que nos movem: a intersecção fascinante entre **arte, cultura, ciência e tecnologia**. Este trabalho nasce do desejo de criar um portal de conhecimento que não apenas informa, mas também inspira e tráz conhecimento.
+Este é um espaço dedicado ao conhecimento com foco em matemática, computação, tecnologia e arte com objetivo de disponibilizar materiais e conteúdos que trazem o acesso ao conhecimento e a informação.
+
 
 ### O que você encontrará aqui?
 

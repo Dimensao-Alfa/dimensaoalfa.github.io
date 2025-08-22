@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: {'[+]': [['$', '$']]}
+            },
+        svg: {
+            fontCache: 'global'
+            }
+        };
+    </script>
 </head>
 <body>
     {% include 'header.html' %}
@@ -16,5 +27,7 @@
     </div>
 
     {% include 'footer.html' %}
+
+    <script defer id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 </body>
 </html>

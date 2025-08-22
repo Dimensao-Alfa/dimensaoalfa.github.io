@@ -86,6 +86,10 @@ header nav a {
     margin-left: 10px;
 }
 
+.article-header {
+    border-bottom: 2px solid gray;
+}
+
 .article-header h2 {
     font-size: 2.2em;
     margin-bottom: 5px;
@@ -98,6 +102,7 @@ header nav a {
 
 .article-content {
     font-size: 1.1em;
+    border-bottom: 5px solid rgb(68, 68, 68);
 }
 
 /* === Rodapé (Footer) === */
