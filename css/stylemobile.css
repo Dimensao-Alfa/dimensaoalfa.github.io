@@ -7,6 +7,7 @@
         display: flex;
         flex-direction: row;
         width: 100%;
+        height: fit-content;
         justify-content: space-between;
     }
 
@@ -70,6 +71,11 @@
         padding: 4px;
         margin: 0 auto;
     }
+
+    .foot-section{
+        padding: 45px 0 5px 0;
+        margin: 0 auto;
+    }
     .foot-links-span{
         padding: 8px;
     }
@@ -107,7 +113,7 @@
     }
 
     .container-img-top section {
-        width: 60%;
+        /*width: 60%;*/
         display: block;
         padding: 6px;
     }
@@ -200,6 +206,32 @@
         width: 80%;
         height: auto;
         
+    }
+
+    .da-blog, .wsr-blog, .updates-blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: fit-content;
+        margin: 0 auto;
+
+    }
+
+    .updates-blog-item-1, .updates-blog-item {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        height: fit-content;
+
+    }
+
+    .updates-blog-item-1 img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
     }
 
 }
