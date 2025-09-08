@@ -9,6 +9,60 @@ body {
     background-color: rgb(241, 242, 242);;
 }*/
 
+/* Padronização para tamanhos de espaçamentos, tamanhos de fonte e familía da fonte.*/
+:root{
+    /* paddings */
+    --padding-size-0: 2px;
+    --padding-size-1: 8px;
+    --padding-size-2: 16px;
+    --padding-size-3: 24px;
+    --padding-size-4: 32px;
+    --padding-size-5: 40px;
+    --padding-size-6: 48px;
+    
+    
+    /* Fonts sizes */
+    --main-title-size: 64pt;
+    --second-main-title-size: 48pt;
+    --third-main-title-size: 32pt;
+    --fourth-main-title-size: 24pt;
+    
+
+    /* Font family */
+    --main-title-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --second-main-title-family: Arial, Helvetica, sans-serif;
+    --third-main-title-family: Arial, Helvetica, sans-serif;
+    --text-body-family-s: serif;
+    --text-body-family-ns: Arial, Helvetica, sans-serif; /* Body text family without serif */
+    --text-code-family: Courier New, Courier, monospace;
+
+}
+
+.main-titles {
+    font-size: var(--main-title-size);
+    font-family: var(--main-title-family);
+}
+
+.da-blog, .wsr-blog{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 82px 0 48px 0;
+    
+    
+}
+
+.da-blog-title, .wsr-blog-title {
+    display: block;
+    text-align: center;
+    background-color: #0870d6;
+    color: white;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 12px 12px 0px 0px;
+
+}
+
 .updates-blog {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
