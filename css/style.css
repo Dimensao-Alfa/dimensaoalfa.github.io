@@ -43,6 +43,36 @@ body {
     font-family: var(--main-title-family);
 }
 
+
+.amazon-sec {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 100%;
+    padding: 82px 0 48px 0;
+    
+}
+
+.amazon-sec img {
+    display: block;
+    text-align: center;
+    width:100%;
+    margin: 0 auto;
+}
+
+.amazon-sec a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.amazon-sec a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 2px 2px 12px #c8c8c8;
+}
+
 .da-blog, .wsr-blog{
     display: flex;
     flex-direction: column;
